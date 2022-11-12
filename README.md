@@ -52,6 +52,7 @@ The supported commands are a subset of the SCPI commands.
 	4.980,0.000,0.000,OFF,OFF,OFF,1
 	OUTP?
 	ON
+The Windows application sends a MEAS:ALL:INFO? request every 100ms.
 	
 ## Power off
 	OUTP OFF
