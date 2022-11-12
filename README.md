@@ -34,6 +34,12 @@ The supported commands are a subset of the SCPI commands.
 	VOLT 5.0
 	CURR 1.0
 	OUTP ON
+	VOLT:LIM?
+	30.000
+	VOLT:LIM 10.0
+	CURR:LIM?
+	2.000
+	CURR:LIM 1.0
 	
 ## Readback
 	:MEAS:VOLT?
@@ -42,6 +48,10 @@ The supported commands are a subset of the SCPI commands.
 	0.000
 	:MEAS:POW?
 	0.000
+	:MEAS:ALL:INFO?
+	4.980,0.000,0.000,OFF,OFF,OFF,1
+	OUTP?
+	ON
 	
 ## Power off
 	OUTP OFF
